@@ -1,2 +1,29 @@
 khởi tạo local repository
 - git init
+
+đẩy file lên git
+- git add " tên file muốn đẩy lên "
+
+kiểm tra các file đang nằm trên staging area
+- git status 
+
+đẩy tất cả file có sự thay đổi lên staging GIT
+- git add .
+
+
+
+lệnh commit lịch sử phiên  bản
+-git commit -m "viết thông báo"
+
+lệnh coi lịch sử phiên bản
+
+câu lệnh đẩy code lên github lần đầu
+- git push -u origin (tên nhánh, có thể coi ở góc dưới cuối bên trái vscode)
+
+câu lệnh đẩy code lên github từ lần thứ 2
+- git push
+
+3 bước để đẩy code lên github
+bước 1: git add . (đẩy các thay đổi trong file lên khu vực staging area)
+bước 2: git commit -m "nội dung tin nhắn" (tạo ra một lịch sử phiên bản code của chúng ta)
+bước 3: chạy 1 trong 2 lệnh git push -u origin + tên nhawsnh (nếu lần đầu đẩy code lên remote repo github đó) hoặc git push (nếu đã đẩy lên 1 lần rồi )
